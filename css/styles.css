@@ -1,12 +1,75 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
-    width: 1000px;
-    padding: 0 30px;
-    margin: 0 auto;
+  width: 1000px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
+
+/* -------------------- Header -------------------- */
+
+.page-header {
+    padding: 18px 0px;
+}
+
+nav.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.container a.logo {
+    display: flex;
+    align-items: center;
+}
+
+a.logo img {
+    margin-right: 18px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-list-item .link{
+    padding: 23px 0 25px 0;
+}
+
+/* -------------------- Hero -------------------- */
+
